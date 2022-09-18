@@ -777,8 +777,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1069932653}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.3986816, y: 15.961369, z: -18.541779}
-  m_LocalScale: {x: 21.44884, y: 1, z: 1}
+  m_LocalPosition: {x: -2.3986816, y: 15.961369, z: -19.86}
+  m_LocalScale: {x: 20.173277, y: 1, z: 0.93698}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1259811647}
@@ -886,14 +886,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1178069840}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -12.37, y: 15.78, z: -28.44}
-  m_LocalScale: {x: 21.437899, y: 1, z: 1}
+  m_LocalRotation: {x: -0.0038429275, y: 0.70709634, z: -0.0038429266, w: 0.70709634}
+  m_LocalPosition: {x: -12.37, y: 15.77, z: -29.5}
+  m_LocalScale: {x: 17.857769, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1259811647}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: -0.623}
 --- !u!65 &1178069842
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1032,8 +1032,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1295627319}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 7.86, y: 15.78, z: -28.42}
-  m_LocalScale: {x: 21.437899, y: 1, z: 1}
+  m_LocalPosition: {x: 7.86, y: 15.78, z: -29.03}
+  m_LocalScale: {x: 18.623297, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1259811647}
@@ -1142,8 +1142,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1859092395}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.13, y: 15.78, z: -38.56}
-  m_LocalScale: {x: 21.437899, y: 1, z: 1}
+  m_LocalPosition: {x: -2.13, y: 15.78, z: -38.71}
+  m_LocalScale: {x: 20.633335, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1259811647}
