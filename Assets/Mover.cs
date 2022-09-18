@@ -1,0 +1,34 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Mover : MonoBehaviour
+{
+    [SerializeField] float movespeed = 10f;
+    // Start is called before the first frame update
+    void Start()
+    {
+       PrindInstruction(); 
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        MovePlayer(); 
+    }
+
+    void PrindInstruction()
+    {
+        Debug.Log ("Welcome to the Game");
+        Debug.Log("Use Arrow Keys to move around");
+        Debug.Log("Don't hit the Walls!");
+    }
+    
+    void MovePlayer()
+    {
+        float xValue = Input.GetAxis("Horizontal") * Time.deltaTime * movespeed;
+        float zValue = Input.GetAxis("Vertical") * Time.deltaTime * movespeed;
+        transform.Translate(xValue, 0, zValue);
+    }
+
+}
